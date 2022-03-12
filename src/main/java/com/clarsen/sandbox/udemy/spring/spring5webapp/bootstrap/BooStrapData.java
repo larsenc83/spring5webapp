@@ -45,10 +45,16 @@ public class BooStrapData implements CommandLineRunner {
     }
     
     private Author buildAuthor(String first, String last) {
-        return Author.builder().firstName(first).lastName(last).build();
+        return Author.builder()
+                    .firstName(first)
+                    .lastName(last)
+                .build();
     }
     
     private Book buildBook(String title, String isbn) {
-        return Book.builder().title(title).isbn(isbn).build();
+        return Book.builder()
+                    .title(title)
+                    .isbn(isbn)
+                .build();
     }
 }
