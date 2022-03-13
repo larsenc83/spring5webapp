@@ -1,0 +1,3 @@
+###
+# get books
+cUrl -X GET "http://localhost:8080/books"
